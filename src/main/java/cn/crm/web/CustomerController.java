@@ -21,6 +21,11 @@ public class CustomerController {
 
     @RequestMapping("/findAll")
     public @ResponseBody Map<String, Object> findAll(Integer page, Integer rows){
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+        System.out.println("4");
+        System.out.println("5");
         if(page==null||page==0){
             page=1;
         }
